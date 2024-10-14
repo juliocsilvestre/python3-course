@@ -19,3 +19,12 @@ lista_b = [4, 5, 6]
 lista_c = lista_a + lista_b
 lista_a.extend(lista_b)
 print(lista_a)
+
+
+lista_d = ['Luiz', 'Julio','Maria']
+lista_e = lista_d.copy()
+
+lista_d[0] = 'João'
+
+print(lista_d)
+print(lista_e)
