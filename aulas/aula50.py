@@ -7,6 +7,7 @@ Exiba os índices da lista
 """
 
 lista = ['Maria', 'Helena', 'Luiz']
+lista.append('Júlio')
 
 
 indices = range(len(lista))
